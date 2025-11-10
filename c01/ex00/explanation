@@ -1,0 +1,81 @@
+a POINTER is a special type of variable that stores the 
+memory address of another variable .
+instead of holding a direct value (like 0 or 42) , a 
+pointer holds where that value is located in memory .
+
+ WHAT IS A POINTER USED FOR IN C ?
+A pointerr is used to :
+1. Access and modify var. indirectly through their memory
+address .
+2. Pass dtat to function without making copies (changing 
+the original values ).
+
+3. It helps to wrok with strings and arrays .
+4. manage dynamic memory using function like
+malloc & free .
+
+Some of u folks will think and says " why we would 
+change a variables's value ?" . Well , sometimes 
+u need  from ir function to return 2 values at the same 
+time , so in C a function can return only one variable's 
+value , meaning u cannot return two variables . So , the
+only solution we have is to work with pointers to be able
+to change that variable's value and return it multiple 
+times ( depends on what u need from ur code ) . We use 
+pointers to change V.V becuz in C when u declare a 
+function makes a copie of it and u works with it
+The pointers gives u guys the ability to change 
+(or work) in the original one .
+
+
+>>>>>>>>>>>>>>>>>>>>SUMMARY<<<<<<<<<<<<<<<<<<<<<<<<
+
+1. Definition :
+	A pointer is a variable that stores he memory 
+address of another variable , it doesn't hold a value 
+itself , but the location of that value .
+
+2. How it works :
+	& -----> gives the address of a variable .
+	* -----> accesses or change the value of that add.
+
+		EXAMPLE : 
+		
+		int *p = &n;
+		int n = 20;
+ // giving to the pointer p the	address of n
+		*p = 42; //the value of n is changed .
+
+2. Why we would use the pointers ? 
+
+. To modify original variables inside functions ( not 
+just copies ).
+. To return multiple values from a function .
+. To work with arrays , strings , and structures 
+efficiently .
+. To allocate and manage memory dynamically(malloc , free)
+
+4. Pointer types :
+
+You can have pointers of any type-int * , float *, char *
+ect... .
+Each type tells C how many bytes to read or write .
+
+5 >>>>>>>>>>>>>>>>>>IMPORTANT NOTE<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+. Unintialized pointers cause errors , always points
+them to somewhere or set them to "NULL" .
+. You can declare a pointer first and give it an address
+later . 
+
+EXAMPLE : 
+	int n = 0;
+	int *p = &n;
+	*p = 42;
+
+///////////////////////OR//////////////////////////
+	int n = 0;
+	int *p = NULL; // the pointer now is initialized
+	//u can give it an address later (Be carfull
+	// , u can give it an address only , not a value
+	// becus it doesn't hold any address yet.

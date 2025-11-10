@@ -1,0 +1,12 @@
+target ======> exercice 02/ ft_swap.c
+
+objectif was to swap thr value two integers whose 
+adresses were enterd as parameters .
+So basically it is so simple , we gonna declare an 
+extra  variable as int , for EXAMPLE (int tmp) 
+that tmp is gonna be as the third goblet that we 
+re using to swap the 2 values as indecated :
+	tmp = *a ;
+	*a = *b;
+	*b = tmp;
+

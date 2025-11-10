@@ -1,0 +1,7 @@
+>Create a function that swaps the value of 2 integers
+whose addresses are entered as paramaters.
+>Here is how it should be prototyped :
+	void ft_swap(int *a , int *b);
+
+>Files to turn in : ft_swap.c
+>Allowed function : Nothing .

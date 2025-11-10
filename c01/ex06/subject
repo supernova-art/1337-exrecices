@@ -1,0 +1,10 @@
+>>>>>>>>>>>>>>>>>>>>>ft_strlen<<<<<<<<<<<<<<<<<<<<<
+
+>Create a function that return the number od chars
+in a string .
+>Here is how it should be prototyped :
+
+	int ft_strlen(char *str);
+>Files to turn in : ft_strlen.c
+>Allowed functions : Nothing 
+

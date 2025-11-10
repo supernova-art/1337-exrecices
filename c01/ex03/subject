@@ -1,0 +1,7 @@
+>>>>>>>>>>>>EXERCICE 03 : ft_div_mod<<<<<<<<<<<<<<<<
+>Create a function that devides parameters a by b
+and stores the result in the int pointed by div . It 
+also stores the remainder of the divivsion of a by b
+in the int pointed by mod.
+>FIles to turn in : ft_div_mod.c
+>Allowed functions : NOthing 

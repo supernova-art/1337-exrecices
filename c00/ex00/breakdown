@@ -1,0 +1,28 @@
+We are writing a function that displays characters .
+first thing let's breakdown the function protype >
+
+	void ft_putchar(char c)
+
+"void" , means that the fct returns nothing .
+"ft_putchar" , is the fct name [it like any other normal name] .
+"(char c)" , inside the fct that we mentioned before we're declaring a parameter (go to parametrs section) .
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<OBJECTIF>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+The objectif of this exercice is to understand how a write function works .
+The write function is composed of three main elements :
+		1st : file descriptor .
+			there is 3 types of file descriptor :
+				> 0 ==> standar input.
+				> 1 ==> standar output.
+				> 2 ==> standar error. 
+		
+		2nd : adress to a buffer .
+			it's an adress in memory that points to a string [like a pointer] .
+
+		3rd : size .
+			the number of bytes needed to print the given string .
+
+
+							by YAHYA , 09/09/25 at 8:03:42 PM

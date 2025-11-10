@@ -1,0 +1,8 @@
+Files to turn in  : ft_is_negative.c
+Allowed functions : ft_putchar .
+
+create a function that displays "N" or "P" depending on the integer's sign , if n is negative , displays "N" , 
+if n is positif or NULL , displays "P" .
+
+Hers's how it should be prototyped :
+		void ft_is_negative(int n);

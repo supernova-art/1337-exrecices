@@ -1,0 +1,9 @@
+Files to turn in : ft_putnbr.c
+Allowed functions : ft_putchar.
+
+create a function that displays the number entered as
+parameter . the function has to be able to displays all 
+the possible values within an int type varibale .
+ Here is how it should be prototyped :
+
+	void ft_putnbr(int nbr);

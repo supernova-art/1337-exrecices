@@ -1,0 +1,8 @@
+>Create a function that takes a pointer to a
+pointer (9 times) to int as a paramater and sets the value "42" to rhat int .
+>Here is how is should be prototyped :
+
+void ft_ultimate_ft(int **********nbr);
+
+>Files to turn in : ft_ultimate_ft.c 
+>Allowed functions : Nothing .

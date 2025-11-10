@@ -1,0 +1,7 @@
+>>>>>>>>>>>>>>>>>>>>>>ft_putstr<<<<<<<<<<<<<<<<<<<<<<
+>Create a function that displays a string of charcters
+on the standar output .
+>Here is how it should be protoytped :
+	void ft_putstr(char *str)
+>Files to turn in : ft_putstr.c
+>Allowed function : NOthing 

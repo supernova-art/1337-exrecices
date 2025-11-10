@@ -1,0 +1,10 @@
+>>>>>>>>>>>>>>ft_ultimate_div_mod<<<<<<<<<<<<<<<<<<<<
+
+>Create a function that divides paramter a by b . The
+result of this division is stored in the int pointed 
+by a. The remainder of the deivision is stored in the int pointed by b.
+>Here is how it should be prototyped :
+	void ft_ultimate_div_mod(int *a, int *b)
+>Files to turn in : ft_ultimate_div_mod.c
+>Allowed function : Nothing 
+

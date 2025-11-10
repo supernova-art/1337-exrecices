@@ -1,0 +1,12 @@
+Files to turn in : ft_print_comb.c
+Allowed functions : ft_putchar .
+
+>Create a function that displays all diferent combinations 
+of three different digits in ascending order . 
+here is how the input should be :
+	012, 013, 014, 015, 016, 017, 018, 023, ..., 789.
+
+	>987 is not there becuz 789 alredy exist .
+	>999 is not there becuz digit 9 is presnting more than once.
+	>here is how it should be prototyped :
+		void ft_print_comb(void);

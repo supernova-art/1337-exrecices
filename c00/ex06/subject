@@ -1,0 +1,10 @@
+Files to turn in : ft_print_comb2.c
+Allowed function : ft_putchar .
+
+create a function that displays all combinations of 2 digits 
+between 00 and 99 , listed by ascending order .
+>>>>>>>>>>>>>>>>>>>>>>EXPECTED OUTPUT<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+00 01, 00 02, 00 03, 00 04, 00 05, ...., 98 99.
+
+HERE IS HOW IT SHOULD BE PROTOYPED :
+void ft_print_comb2(void);

@@ -1,0 +1,8 @@
+well, in that ex we were asked to creat a
+function that takes a pointer to a pointer 
+* (9) to an int and set the value "42" to 
+that int .
+check the exercice ex00
+on Branche /DAYS/C01/ex00/explanation 
+the same work , all what changed is that 
+the popinters now are 9 times .

@@ -1,0 +1,10 @@
+in that exercice we were asked to writr  function that displays the alphabet in lowercase ,
+on a single line , in ascending order starting from the letter "a".
+to solve that question there is 2 main ways to do it :
+
+	1st way : is to write the alphabest using the write function and giving the required
+		size .
+
+	2nd way : is to use the ascii way [man ascii] <<check the notes>>
+		>declare int >give an int the index of starting>and using while loop .
+		

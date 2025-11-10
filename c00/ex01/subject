@@ -1,0 +1,8 @@
+Files to turn in : ft_print_alphabet.c
+Allowed function : write .
+
+Creat a function that displays the alphabets in lowercase in ascending orde ,on a single line
+strating from the letter "a".
+Here's how it should be prototyped :
+	void ft_print_alphabet(void);
+

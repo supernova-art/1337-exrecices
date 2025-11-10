@@ -1,0 +1,6 @@
+we were asked in that ex. to write the alphabet just like the previous ex. but there is a diffrent between em , wich is
+the order , the order must be decsinding order , in simple way the function must behavior as fellow ==> write from 'z' all
+the way up to 'a'.
+so basiclly there is 2 ways to solve that just like the previous ex (i've mentioned that before)
+the differnce will be in the ascii way , we will just make an upside down the world .
+instead of giving the index 97 we will give it this time 122 and going back (i--) all the way up to 97.

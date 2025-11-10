@@ -1,0 +1,7 @@
+Files to turn in : ft_rev_print_alphabet.c
+Allowed fucntion : write .
+
+write a funtion that displays the alphabets in lowercase , on a single line , in descending order , starting from the letter 'z' .
+here is how it should be prototyped :
+		
+		void ft_rev_print_alphabets(void);

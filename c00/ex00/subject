@@ -1,0 +1,4 @@
+>write a function that displays characters passed as parametrs .
+>function prototype :
+
+	void ft_putchar(char c);
